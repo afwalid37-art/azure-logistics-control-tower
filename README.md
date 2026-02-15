@@ -1,3 +1,4 @@
+
 # 🚛 Maroc Logistique: Performance Hub 2026 (Azure + Power BI)
 
 ![Power BI](https://img.shields.io/badge/Power_BI-Dark_Mode-F2C811?style=for-the-badge&logo=powerbi)
@@ -10,15 +11,19 @@
 
 The dashboard serves as a "Control Tower" for logistics directors, offering instant visibility into **Profit Margins**, **Supplier Latency**, and **Regional Delivery Success** across the Kingdom.
 
+---
 
 ## 🏗️ Technical Architecture
 This project simulates a high-volume logistics network handling 10,000+ monthly transactions.
 
+```mermaid
 graph LR
     A[Python Script] -->|Generates Mock Data| B(CSV/Excel)
     B -->|ETL Process| C{Azure SQL Database}
     C -->|SQL Views| D[Power BI Desktop]
     D -->|DirectQuery| E[Interactive Dashboard]
+
+```
 
 ### 🛠️ The Stack
 
@@ -30,6 +35,9 @@ graph LR
 * **DAX Measures:** Complex calculations for *Net Profit Margin*, *Delivery Success Rate*, and *YoY Growth*.
 * **UI/UX:** Professional "Dark Mode" interface optimized for executive presentations.
 
+
+
+---
 
 ## 📊 Dashboard Key Features
 
@@ -51,9 +59,11 @@ Tracks the **"Average Delivery Days"** and **"Success Rate"** per supplier.
 
 * *Use Case:* Negotiate better terms with suppliers who consistently delay shipments.
 
+---
 
 ## 📂 Project Structure
 
+```text
 maroc-logistics-control-tower/
 │
 ├── 📁 data_generation/          # Python scripts for data simulation
@@ -74,7 +84,9 @@ maroc-logistics-control-tower/
 │
 └── README.md                    # Project Documentation
 
+```
 
+---
 
 ## 🚀 How to Run This Project
 
@@ -87,21 +99,27 @@ maroc-logistics-control-tower/
 ### Setup Steps
 
 1. **Generate Data:** Run the python script to create the dataset.
-
-bash
+```bash
 cd data_generation
 python generate_logistics.py
+
+```
 
 
 2. **Database Setup:** Execute `create_tables.sql` in SSMS to build the schema, then import the CSV/Excel data.
 3. **Connect Power BI:** Open `Logistics_Dashboard.pbix`. If you have a local SQL instance, update the "Data Source Settings" to point to your server `(localhost)`.
 
+---
 
 ## 📸 Screenshots
 
 ### Main "Control Tower" Dashboard
 
+### Data Model (Star Schema)
 
+*(Add your star schema screenshot here if available)*
+
+---
 
 ## 👤 Author
 
@@ -109,5 +127,8 @@ python generate_logistics.py
 
 * **Role:** Data Engineer & Business Intelligence Developer
 * **Focus:** Azure, SQL, Python, Power BI
-* [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/elwalid-elalaoui/)
-* [Malt](https://www.google.com/search?q=https://www.malt.com/profile/YOUR_MALT_ID)
+* [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/elwalid-elalaoui/) | [Malt](https://www.google.com/search?q=https://www.malt.com/profile/YOUR_MALT_ID)
+
+```
+
+```
