@@ -112,7 +112,7 @@ python generate_logistics.py
 ## 📸 Screenshots
 
 ### Main "Control Tower" Dashboard
-[dashboard/dashboard.png](https://github.com/afwalid37-art/azure-logistics-control-tower/blob/main/dashboard/dashboard.png)
+![Main Dashboard](dashboard/dashboard.png)
 
 
 ## 👤 Author
