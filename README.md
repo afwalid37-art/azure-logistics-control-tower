@@ -35,8 +35,6 @@ graph LR
 * **DAX Measures:** Complex calculations for *Net Profit Margin*, *Delivery Success Rate*, and *YoY Growth*.
 * **UI/UX:** Professional "Dark Mode" interface optimized for executive presentations.
 
-
-
 ---
 
 ## 📊 Dashboard Key Features
@@ -115,11 +113,6 @@ python generate_logistics.py
 
 ### Main "Control Tower" Dashboard
 
-### Data Model (Star Schema)
-
-*(Add your star schema screenshot here if available)*
-
----
 
 ## 👤 Author
 
@@ -127,7 +120,8 @@ python generate_logistics.py
 
 * **Role:** Data Engineer & Business Intelligence Developer
 * **Focus:** Azure, SQL, Python, Power BI
-* [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/elwalid-elalaoui/) | [Malt](https://www.google.com/search?q=https://www.malt.com/profile/YOUR_MALT_ID)
+* [LinkedIn](https://www.linkedin.com/in/el-walid-el-alaoui-fels-51491538b/)
+* [Malt]([https://www.google.com/search?q=https://www.malt.com/profile/YOUR_MALT_ID](https://www.malt.com/profile/elwalidelalaouifeks))
 
 ```
 
