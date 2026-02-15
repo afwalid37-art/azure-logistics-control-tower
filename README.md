@@ -122,7 +122,7 @@ python generate_logistics.py
 * **Role:** Data Engineer & Business Intelligence Developer
 * **Focus:** Azure, SQL, Python, Power BI
 * [LinkedIn](https://www.linkedin.com/in/el-walid-el-alaoui-fels-51491538b/)
-* [Malt]([https://www.google.com/search?q=https://www.malt.com/profile/YOUR_MALT_ID](https://www.malt.com/profile/elwalidelalaouifeks))
+* [Malt](https://www.malt.com/profile/YOUR_MALT_ID](https://www.malt.com/profile/elwalidelalaouifeks))
 
 ```
 
