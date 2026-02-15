@@ -117,12 +117,12 @@ python generate_logistics.py
 
 ## 👤 Author
 
-**El Walid El Alaoui**
+**El Walid El Alaoui Fels**
 
 * **Role:** Data Engineer & Business Intelligence Developer
 * **Focus:** Azure, SQL, Python, Power BI
 * [LinkedIn](https://www.linkedin.com/in/el-walid-el-alaoui-fels-51491538b/)
-* [Malt](https://www.malt.com/profile/YOUR_MALT_ID](https://www.malt.com/profile/elwalidelalaouifeks))
+* [Malt](https://www.malt.com/profile/elwalidelalaouifeks)
 
 ```
 
