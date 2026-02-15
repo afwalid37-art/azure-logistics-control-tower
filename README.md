@@ -112,6 +112,7 @@ python generate_logistics.py
 ## 📸 Screenshots
 
 ### Main "Control Tower" Dashboard
+dashboard/dashboard.png
 
 
 ## 👤 Author
