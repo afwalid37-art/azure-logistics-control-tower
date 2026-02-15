@@ -1,0 +1,15 @@
+/* * Table: Big_Logistics_Data
+ * Description: Stores raw transaction data including orders, products, and delivery metrics.
+ */
+
+CREATE TABLE Big_Logistics_Data (
+    Order_ID VARCHAR(50) NOT NULL PRIMARY KEY,
+    Order_Date DATETIME NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    Product VARCHAR(50) NOT NULL,
+    Qty INT NOT NULL,
+    Revenue DECIMAL(18, 2) NOT NULL,
+    Cost DECIMAL(18, 2) NOT NULL,
+    Status VARCHAR(50) NOT NULL,
+    Delivery_Days INT NOT NULL
+);

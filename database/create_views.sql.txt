@@ -1,0 +1,40 @@
+/* * View: v_Rapport_Logistique
+ * Description: Pre-aggregates regional data and calculates profitability (Profit = Revenue - Cost).
+ * Logic: Maps individual cities to their administrative Moroccan regions.
+ */
+
+CREATE VIEW v_Rapport_Logistique AS
+SELECT 
+    Order_ID,
+    CAST(Order_Date AS DATE) AS Order_Date,
+    City,
+    Product,
+    -- Regional Mapping Logic
+    CASE 
+        WHEN City IN ('Marrakech', 'Safi') THEN 'Marrakech-Safi'
+        WHEN City IN ('Casablanca', 'Settat') THEN 'Casablanca-Settat'
+        WHEN City IN ('Tanger', 'Tetouan', 'Al Hoceima') THEN 'Tanger-Tetouan-Al Hoceima'
+        WHEN City IN ('Rabat', 'Salé', 'Kenitra') THEN 'Rabat-Salé-Kénitra'
+        WHEN City IN ('Agadir', 'Ouarzazate') THEN 'Souss-Massa'
+        WHEN City IN ('Fes', 'Meknes') THEN 'Fès-Meknès'
+        WHEN City IN ('Oujda', 'Nador') THEN 'L''Oriental'
+        WHEN City = 'Laayoune' THEN 'Laâyoune-Sakia El Hamra'
+        WHEN City = 'Dakhla' THEN 'Dakhla-Oued Ed-Dahab'
+        WHEN City = 'Béni Mellal' THEN 'Béni Mellal-Khénifra'
+        WHEN City = 'Errachidia' THEN 'Drâa-Tafilalet'
+        WHEN City = 'Guelmim' THEN 'Guelmim-Oued Noun'
+        ELSE 'Autre'
+    END AS Region_Name,
+    Qty,
+    CAST(Revenue AS DECIMAL(18,2)) AS Revenue,
+    CAST(Cost AS DECIMAL(18,2)) AS Cost,
+    CAST((Revenue - Cost) AS DECIMAL(18,2)) AS Profit,
+    Status,
+    Delivery_Days,
+    -- Delivery Performance KPI
+    CASE 
+        WHEN Delivery_Days <= 3 THEN 'Rapide'
+        WHEN Delivery_Days <= 7 THEN 'Standard'
+        ELSE 'En retard'
+    END AS Performance_Livraison
+FROM Big_Logistics_Data;

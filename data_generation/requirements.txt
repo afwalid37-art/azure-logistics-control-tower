@@ -1,0 +1,5 @@
+pandas
+faker
+openpyxl
+sqlalchemy
+pyodbc
