@@ -95,7 +95,10 @@ azure-logistics-control-tower/
 │
 ├── 📁 dashboard/                # The Power BI Solution
 │   ├── Logistics_Dashboard.pbix
-│   └── screenshots/
+│   ├── dashboard.png            # Main Control Tower View
+│   ├── log.png                  # Live Watchdog Logs
+│   ├── success.png              # Invocation Details (Proof of Run)
+│   └── databasesuc.png          # Database Verification
 │
 └── README.md                    # Documentation
 
