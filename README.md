@@ -67,6 +67,8 @@ The "Watchdog" ensures that only clean, valid data enters the warehouse. Below i
 
 *Figure 2: Real-time logs showing file detection, cleaning, and successful SQL insertion.*
 
+![Azure Success Log](dashboard/log.png)
+
 ---
 
 ## 📂 Project Structure
