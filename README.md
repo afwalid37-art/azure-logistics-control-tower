@@ -58,7 +58,6 @@ The repository is connected to Azure via a custom CI/CD pipeline defined in `.gi
 > This project deploys a **Long-Running Watchdog**. Unlike standard web apps, the function never "idles" because it is continuously polling for blobs.
 > To handle this, the pipeline is configured with an **Async Timeout Strategy (`timeout-minutes: 5`)**. This ensures the code is delivered and active without blocking the CI runner indefinitely.
 
-*Figure 1: Successful CI/CD pipeline execution using the Async Strategy.*
 
 ---
 
