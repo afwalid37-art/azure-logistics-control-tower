@@ -147,7 +147,4 @@ azure-logistics-control-tower/
 * [Malt](https://www.malt.com/profile/elwalidelalaouifeks)
 
 ```
-
-**This README now tells the story of a Senior Data Engineer.** It explains *why* you built it this way, not just *what* you built. 🚀
-
 ```
