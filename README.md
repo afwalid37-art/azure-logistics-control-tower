@@ -65,7 +65,7 @@ The repository is connected to Azure via a custom CI/CD pipeline defined in `.gi
 
 The "Watchdog" ensures that only clean, valid data enters the warehouse. Below is the live Azure Log Stream confirming a successful ingestion cycle.
 
-*Figure 2: Real-time logs showing file detection, cleaning, and successful SQL insertion.*
+### 1. Log stream
 
 ![Azure Success Log](dashboard/log.png)
 
