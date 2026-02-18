@@ -45,8 +45,8 @@ data = []
 start_date = datetime.date(2025, 1, 1)
 
 # 2. Generate 10,000 Rows
-for i in range(10000):
-    order_id = f"ORD-{100000+i}"
+for i in range(100):
+    order_id = f"ORD-{199999+i}"
     date = start_date + datetime.timedelta(days=random.randint(0, 365))
     city = random.choice(cities)
     product_name = random.choice(list(products.keys()))
