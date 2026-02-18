@@ -69,7 +69,20 @@ The "Watchdog" ensures that only clean, valid data enters the warehouse. Below i
 
 ![Azure Success Log](dashboard/log.png)
 
+### 2. Successful Invocation
+Confirmation that the Azure Function triggered successfully and completed the pipeline.
+![Invocation Details](dashboard/success.png)
+
+### 3. Database Verification
+Data successfully landed in Azure SQL with no duplicates.
+![SQL Database Result](dashboard/databasesuc.png)
+
 ---
+
+## 📸 Dashboard Screenshots
+
+### Main "Control Tower" View
+![Main Dashboard](dashboard/dashboard.png)
 
 ## 📂 Project Structure
 
