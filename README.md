@@ -75,7 +75,7 @@ Confirmation that the Azure Function triggered successfully and completed the pi
 
 ### 3. Database Verification
 Data successfully landed in Azure SQL with no duplicates.
-![SQL Database Result](dashboard/databasesuc.png)
+![SQL Database Results](dashboard/databasesuc.png)
 
 ---
 
